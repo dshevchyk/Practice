@@ -10,6 +10,8 @@
 		E2442B0922EC329B0087C72F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2442B0822EC329B0087C72F /* main.cpp */; };
 		E2442B1322EC348F0087C72F /* ReverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2442B1122EC348F0087C72F /* ReverseString.cpp */; };
 		E2442B1822EC40E00087C72F /* SwapPairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2442B1622EC40E00087C72F /* SwapPairs.cpp */; };
+		E24B974222EC465500F04627 /* RepeatedNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24B974022EC465500F04627 /* RepeatedNumber.cpp */; };
+		E24B974522EC4B2B00F04627 /* MaxSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24B974322EC4B2B00F04627 /* MaxSubArray.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +35,10 @@
 		E2442B1622EC40E00087C72F /* SwapPairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SwapPairs.cpp; sourceTree = "<group>"; };
 		E2442B1722EC40E00087C72F /* SwapPairs.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SwapPairs.hpp; sourceTree = "<group>"; };
 		E2442B1922EC41140087C72F /* ListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
+		E24B974022EC465500F04627 /* RepeatedNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RepeatedNumber.cpp; sourceTree = "<group>"; };
+		E24B974122EC465500F04627 /* RepeatedNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RepeatedNumber.hpp; sourceTree = "<group>"; };
+		E24B974322EC4B2B00F04627 /* MaxSubArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaxSubArray.cpp; sourceTree = "<group>"; };
+		E24B974422EC4B2B00F04627 /* MaxSubArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxSubArray.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,7 @@
 		E2442B0F22EC343D0087C72F /* interviewbit */ = {
 			isa = PBXGroup;
 			children = (
+				E24B973F22EC463D00F04627 /* Arrays */,
 			);
 			path = interviewbit;
 			sourceTree = "<group>";
@@ -98,6 +105,17 @@
 				E2442B1922EC41140087C72F /* ListNode.h */,
 			);
 			path = common;
+			sourceTree = "<group>";
+		};
+		E24B973F22EC463D00F04627 /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				E24B974022EC465500F04627 /* RepeatedNumber.cpp */,
+				E24B974122EC465500F04627 /* RepeatedNumber.hpp */,
+				E24B974322EC4B2B00F04627 /* MaxSubArray.cpp */,
+				E24B974422EC4B2B00F04627 /* MaxSubArray.hpp */,
+			);
+			path = Arrays;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,8 +174,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E24B974522EC4B2B00F04627 /* MaxSubArray.cpp in Sources */,
 				E2442B0922EC329B0087C72F /* main.cpp in Sources */,
 				E2442B1822EC40E00087C72F /* SwapPairs.cpp in Sources */,
+				E24B974222EC465500F04627 /* RepeatedNumber.cpp in Sources */,
 				E2442B1322EC348F0087C72F /* ReverseString.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

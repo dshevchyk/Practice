@@ -8,8 +8,12 @@
 
 #include <iostream>
 
+#include "interviewbit/Arrays/RepeatedNumber.hpp"
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    RepeatedNumber::Solution s;
+    std::vector<int> A = {3, 4, 1, 4, 1};
+    s.repeatedNumber(A);
+    std::cout << s.repeatedNumber(A);
     return 0;
 }
