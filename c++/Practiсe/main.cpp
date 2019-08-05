@@ -8,12 +8,18 @@
 
 #include <iostream>
 
-#include "interviewbit/Arrays/RepeatedNumber.hpp"
+#include "leetcode/Recursion 1/PascalsTriangle2.hpp"
+#include <iostream>
+#include <stdlib.h>
 
-int main(int argc, const char * argv[]) {
-    RepeatedNumber::Solution s;
-    std::vector<int> A = {3, 4, 1, 4, 1};
-    s.repeatedNumber(A);
-    std::cout << s.repeatedNumber(A);
+using namespace std;
+
+
+std::function<int(int, int)> func_multiply = [](int a, int b) -> int { return a * b; };
+
+int main(int argc, char *argv[])
+{
+    PascalsTriangle2::Solution s;
+    s.getRow(3);
     return 0;
 }

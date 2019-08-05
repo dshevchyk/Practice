@@ -9,7 +9,7 @@
 #include "SwapPairs.hpp"
 
 #include <vector>
-#include "../common/speedup.h"
+#include "../../common/speedup.h"
 
 namespace SwapPairs {
     

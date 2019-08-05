@@ -8,6 +8,8 @@
 
 #include "MaxSubArray.hpp"
 
+using std::numeric_limits;
+
 int MaxSubArray::Solution::maxSubArray(const vector<int> &A) {
     
     int sum = 0;

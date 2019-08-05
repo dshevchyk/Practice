@@ -9,8 +9,8 @@
 #ifndef SwapPairs_hpp
 #define SwapPairs_hpp
 
-#include "../common/speedup.h"
-#include "../common/ListNode.h"
+#include "../../common/speedup.h"
+#include "../../common/ListNode.h"
 
 namespace SwapPairs {
     

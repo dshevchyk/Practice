@@ -12,6 +12,7 @@
 		E2442B1822EC40E00087C72F /* SwapPairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2442B1622EC40E00087C72F /* SwapPairs.cpp */; };
 		E24B974222EC465500F04627 /* RepeatedNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24B974022EC465500F04627 /* RepeatedNumber.cpp */; };
 		E24B974522EC4B2B00F04627 /* MaxSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24B974322EC4B2B00F04627 /* MaxSubArray.cpp */; };
+		E26BB0E722F81E6800CD19FB /* PascalsTriangle2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0E522F81E6800CD19FB /* PascalsTriangle2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,8 @@
 		E24B974122EC465500F04627 /* RepeatedNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RepeatedNumber.hpp; sourceTree = "<group>"; };
 		E24B974322EC4B2B00F04627 /* MaxSubArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaxSubArray.cpp; sourceTree = "<group>"; };
 		E24B974422EC4B2B00F04627 /* MaxSubArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxSubArray.hpp; sourceTree = "<group>"; };
+		E26BB0E522F81E6800CD19FB /* PascalsTriangle2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PascalsTriangle2.cpp; sourceTree = "<group>"; };
+		E26BB0E622F81E6800CD19FB /* PascalsTriangle2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PascalsTriangle2.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,10 +93,7 @@
 		E2442B1022EC344B0087C72F /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				E2442B1122EC348F0087C72F /* ReverseString.cpp */,
-				E2442B1222EC348F0087C72F /* ReverseString.hpp */,
-				E2442B1622EC40E00087C72F /* SwapPairs.cpp */,
-				E2442B1722EC40E00087C72F /* SwapPairs.hpp */,
+				E26BB0E422F81E1500CD19FB /* Recursion 1 */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -116,6 +116,19 @@
 				E24B974422EC4B2B00F04627 /* MaxSubArray.hpp */,
 			);
 			path = Arrays;
+			sourceTree = "<group>";
+		};
+		E26BB0E422F81E1500CD19FB /* Recursion 1 */ = {
+			isa = PBXGroup;
+			children = (
+				E2442B1122EC348F0087C72F /* ReverseString.cpp */,
+				E2442B1222EC348F0087C72F /* ReverseString.hpp */,
+				E2442B1622EC40E00087C72F /* SwapPairs.cpp */,
+				E2442B1722EC40E00087C72F /* SwapPairs.hpp */,
+				E26BB0E522F81E6800CD19FB /* PascalsTriangle2.cpp */,
+				E26BB0E622F81E6800CD19FB /* PascalsTriangle2.hpp */,
+			);
+			path = "Recursion 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E26BB0E722F81E6800CD19FB /* PascalsTriangle2.cpp in Sources */,
 				E24B974522EC4B2B00F04627 /* MaxSubArray.cpp in Sources */,
 				E2442B0922EC329B0087C72F /* main.cpp in Sources */,
 				E2442B1822EC40E00087C72F /* SwapPairs.cpp in Sources */,

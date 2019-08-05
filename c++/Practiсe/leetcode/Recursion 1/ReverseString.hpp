@@ -10,7 +10,7 @@
 #define ReverseString_hpp
 
 #include <vector>
-#include "../common/speedup.h"
+#include "../../common/speedup.h"
 
 namespace ReverseString {
     
