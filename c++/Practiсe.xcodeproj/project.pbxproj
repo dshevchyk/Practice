@@ -13,6 +13,7 @@
 		E24B974222EC465500F04627 /* RepeatedNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24B974022EC465500F04627 /* RepeatedNumber.cpp */; };
 		E24B974522EC4B2B00F04627 /* MaxSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24B974322EC4B2B00F04627 /* MaxSubArray.cpp */; };
 		E26BB0E722F81E6800CD19FB /* PascalsTriangle2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0E522F81E6800CD19FB /* PascalsTriangle2.cpp */; };
+		E26BB0EA22F8258B00CD19FB /* ReverseLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0E822F8258B00CD19FB /* ReverseLinkedList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,8 @@
 		E24B974422EC4B2B00F04627 /* MaxSubArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxSubArray.hpp; sourceTree = "<group>"; };
 		E26BB0E522F81E6800CD19FB /* PascalsTriangle2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PascalsTriangle2.cpp; sourceTree = "<group>"; };
 		E26BB0E622F81E6800CD19FB /* PascalsTriangle2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PascalsTriangle2.hpp; sourceTree = "<group>"; };
+		E26BB0E822F8258B00CD19FB /* ReverseLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseLinkedList.cpp; sourceTree = "<group>"; };
+		E26BB0E922F8258B00CD19FB /* ReverseLinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseLinkedList.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				E2442B1722EC40E00087C72F /* SwapPairs.hpp */,
 				E26BB0E522F81E6800CD19FB /* PascalsTriangle2.cpp */,
 				E26BB0E622F81E6800CD19FB /* PascalsTriangle2.hpp */,
+				E26BB0E822F8258B00CD19FB /* ReverseLinkedList.cpp */,
+				E26BB0E922F8258B00CD19FB /* ReverseLinkedList.hpp */,
 			);
 			path = "Recursion 1";
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 				E2442B0922EC329B0087C72F /* main.cpp in Sources */,
 				E2442B1822EC40E00087C72F /* SwapPairs.cpp in Sources */,
 				E24B974222EC465500F04627 /* RepeatedNumber.cpp in Sources */,
+				E26BB0EA22F8258B00CD19FB /* ReverseLinkedList.cpp in Sources */,
 				E2442B1322EC348F0087C72F /* ReverseString.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
