@@ -9,6 +9,12 @@
 #ifndef PalindromeInteger_hpp
 #define PalindromeInteger_hpp
 
-#include <stdio.h>
+
+namespace PalindromeInteger {
+    class Solution {
+    public:
+        int isPalindrome(int A);
+    };
+}
 
 #endif /* PalindromeInteger_hpp */

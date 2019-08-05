@@ -8,7 +8,17 @@
 
 #ifndef FizzBuzz_hpp
 #define FizzBuzz_hpp
+#include <vector>
+#include <string>
 
-#include <stdio.h>
+using std::vector;
+using std::string;
+
+namespace FizzBuzz {
+    class Solution {
+    public:
+        vector<string> fizzBuzz(int A);
+    };
+}
 
 #endif /* FizzBuzz_hpp */

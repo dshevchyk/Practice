@@ -14,6 +14,8 @@
 		E24B974522EC4B2B00F04627 /* MaxSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24B974322EC4B2B00F04627 /* MaxSubArray.cpp */; };
 		E26BB0E722F81E6800CD19FB /* PascalsTriangle2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0E522F81E6800CD19FB /* PascalsTriangle2.cpp */; };
 		E26BB0EA22F8258B00CD19FB /* ReverseLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0E822F8258B00CD19FB /* ReverseLinkedList.cpp */; };
+		E26BB0EE22F829FD00CD19FB /* FizzBuzz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0EC22F829FD00CD19FB /* FizzBuzz.cpp */; };
+		E26BB0F122F82B7A00CD19FB /* PalindromeInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0EF22F82B7A00CD19FB /* PalindromeInteger.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +47,10 @@
 		E26BB0E622F81E6800CD19FB /* PascalsTriangle2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PascalsTriangle2.hpp; sourceTree = "<group>"; };
 		E26BB0E822F8258B00CD19FB /* ReverseLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseLinkedList.cpp; sourceTree = "<group>"; };
 		E26BB0E922F8258B00CD19FB /* ReverseLinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseLinkedList.hpp; sourceTree = "<group>"; };
+		E26BB0EC22F829FD00CD19FB /* FizzBuzz.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FizzBuzz.cpp; sourceTree = "<group>"; };
+		E26BB0ED22F829FD00CD19FB /* FizzBuzz.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FizzBuzz.hpp; sourceTree = "<group>"; };
+		E26BB0EF22F82B7A00CD19FB /* PalindromeInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromeInteger.cpp; sourceTree = "<group>"; };
+		E26BB0F022F82B7A00CD19FB /* PalindromeInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PalindromeInteger.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,7 @@
 		E2442B0F22EC343D0087C72F /* interviewbit */ = {
 			isa = PBXGroup;
 			children = (
+				E26BB0EB22F829D400CD19FB /* Math */,
 				E24B973F22EC463D00F04627 /* Arrays */,
 			);
 			path = interviewbit;
@@ -134,6 +141,17 @@
 				E26BB0E922F8258B00CD19FB /* ReverseLinkedList.hpp */,
 			);
 			path = "Recursion 1";
+			sourceTree = "<group>";
+		};
+		E26BB0EB22F829D400CD19FB /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				E26BB0EC22F829FD00CD19FB /* FizzBuzz.cpp */,
+				E26BB0ED22F829FD00CD19FB /* FizzBuzz.hpp */,
+				E26BB0EF22F82B7A00CD19FB /* PalindromeInteger.cpp */,
+				E26BB0F022F82B7A00CD19FB /* PalindromeInteger.hpp */,
+			);
+			path = Math;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +213,8 @@
 				E26BB0E722F81E6800CD19FB /* PascalsTriangle2.cpp in Sources */,
 				E24B974522EC4B2B00F04627 /* MaxSubArray.cpp in Sources */,
 				E2442B0922EC329B0087C72F /* main.cpp in Sources */,
+				E26BB0F122F82B7A00CD19FB /* PalindromeInteger.cpp in Sources */,
+				E26BB0EE22F829FD00CD19FB /* FizzBuzz.cpp in Sources */,
 				E2442B1822EC40E00087C72F /* SwapPairs.cpp in Sources */,
 				E24B974222EC465500F04627 /* RepeatedNumber.cpp in Sources */,
 				E26BB0EA22F8258B00CD19FB /* ReverseLinkedList.cpp in Sources */,
