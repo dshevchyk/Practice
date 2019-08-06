@@ -20,6 +20,7 @@
 		E26BB0F722F9B36100CD19FB /* ClimbingStairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0F522F9B36100CD19FB /* ClimbingStairs.cpp */; };
 		E26BB0FA22F9B54300CD19FB /* MaximumDepthOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0F822F9B54300CD19FB /* MaximumDepthOfBinaryTree.cpp */; };
 		E26BB0FE22F9B97600CD19FB /* MAXSPPROD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0FC22F9B97600CD19FB /* MAXSPPROD.cpp */; };
+		E26BB10122F9C2BB00CD19FB /* RearrangeArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0FF22F9C2BB00CD19FB /* RearrangeArray.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +65,8 @@
 		E26BB0FB22F9B56E00CD19FB /* TreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
 		E26BB0FC22F9B97600CD19FB /* MAXSPPROD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MAXSPPROD.cpp; sourceTree = "<group>"; };
 		E26BB0FD22F9B97600CD19FB /* MAXSPPROD.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MAXSPPROD.hpp; sourceTree = "<group>"; };
+		E26BB0FF22F9C2BB00CD19FB /* RearrangeArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RearrangeArray.cpp; sourceTree = "<group>"; };
+		E26BB10022F9C2BB00CD19FB /* RearrangeArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RearrangeArray.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +175,8 @@
 				E26BB0ED22F829FD00CD19FB /* FizzBuzz.hpp */,
 				E26BB0EF22F82B7A00CD19FB /* PalindromeInteger.cpp */,
 				E26BB0F022F82B7A00CD19FB /* PalindromeInteger.hpp */,
+				E26BB0FF22F9C2BB00CD19FB /* RearrangeArray.cpp */,
+				E26BB10022F9C2BB00CD19FB /* RearrangeArray.hpp */,
 			);
 			path = Math;
 			sourceTree = "<group>";
@@ -245,6 +250,7 @@
 				E26BB0F722F9B36100CD19FB /* ClimbingStairs.cpp in Sources */,
 				E26BB0FA22F9B54300CD19FB /* MaximumDepthOfBinaryTree.cpp in Sources */,
 				E26BB0F422F9B0B700CD19FB /* FibonacciNumber.cpp in Sources */,
+				E26BB10122F9C2BB00CD19FB /* RearrangeArray.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
