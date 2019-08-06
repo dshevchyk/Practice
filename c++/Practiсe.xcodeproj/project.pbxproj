@@ -16,6 +16,9 @@
 		E26BB0EA22F8258B00CD19FB /* ReverseLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0E822F8258B00CD19FB /* ReverseLinkedList.cpp */; };
 		E26BB0EE22F829FD00CD19FB /* FizzBuzz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0EC22F829FD00CD19FB /* FizzBuzz.cpp */; };
 		E26BB0F122F82B7A00CD19FB /* PalindromeInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0EF22F82B7A00CD19FB /* PalindromeInteger.cpp */; };
+		E26BB0F422F9B0B700CD19FB /* FibonacciNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0F222F9B0B700CD19FB /* FibonacciNumber.cpp */; };
+		E26BB0F722F9B36100CD19FB /* ClimbingStairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0F522F9B36100CD19FB /* ClimbingStairs.cpp */; };
+		E26BB0FA22F9B54300CD19FB /* MaximumDepthOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0F822F9B54300CD19FB /* MaximumDepthOfBinaryTree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +54,13 @@
 		E26BB0ED22F829FD00CD19FB /* FizzBuzz.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FizzBuzz.hpp; sourceTree = "<group>"; };
 		E26BB0EF22F82B7A00CD19FB /* PalindromeInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PalindromeInteger.cpp; sourceTree = "<group>"; };
 		E26BB0F022F82B7A00CD19FB /* PalindromeInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PalindromeInteger.hpp; sourceTree = "<group>"; };
+		E26BB0F222F9B0B700CD19FB /* FibonacciNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FibonacciNumber.cpp; sourceTree = "<group>"; };
+		E26BB0F322F9B0B700CD19FB /* FibonacciNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FibonacciNumber.hpp; sourceTree = "<group>"; };
+		E26BB0F522F9B36100CD19FB /* ClimbingStairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClimbingStairs.cpp; sourceTree = "<group>"; };
+		E26BB0F622F9B36100CD19FB /* ClimbingStairs.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ClimbingStairs.hpp; sourceTree = "<group>"; };
+		E26BB0F822F9B54300CD19FB /* MaximumDepthOfBinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumDepthOfBinaryTree.cpp; sourceTree = "<group>"; };
+		E26BB0F922F9B54300CD19FB /* MaximumDepthOfBinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaximumDepthOfBinaryTree.hpp; sourceTree = "<group>"; };
+		E26BB0FB22F9B56E00CD19FB /* TreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +123,7 @@
 			children = (
 				E2442B1522EC37F20087C72F /* speedup.h */,
 				E2442B1922EC41140087C72F /* ListNode.h */,
+				E26BB0FB22F9B56E00CD19FB /* TreeNode.h */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -139,6 +150,12 @@
 				E26BB0E622F81E6800CD19FB /* PascalsTriangle2.hpp */,
 				E26BB0E822F8258B00CD19FB /* ReverseLinkedList.cpp */,
 				E26BB0E922F8258B00CD19FB /* ReverseLinkedList.hpp */,
+				E26BB0F222F9B0B700CD19FB /* FibonacciNumber.cpp */,
+				E26BB0F322F9B0B700CD19FB /* FibonacciNumber.hpp */,
+				E26BB0F522F9B36100CD19FB /* ClimbingStairs.cpp */,
+				E26BB0F622F9B36100CD19FB /* ClimbingStairs.hpp */,
+				E26BB0F822F9B54300CD19FB /* MaximumDepthOfBinaryTree.cpp */,
+				E26BB0F922F9B54300CD19FB /* MaximumDepthOfBinaryTree.hpp */,
 			);
 			path = "Recursion 1";
 			sourceTree = "<group>";
@@ -219,6 +236,9 @@
 				E24B974222EC465500F04627 /* RepeatedNumber.cpp in Sources */,
 				E26BB0EA22F8258B00CD19FB /* ReverseLinkedList.cpp in Sources */,
 				E2442B1322EC348F0087C72F /* ReverseString.cpp in Sources */,
+				E26BB0F722F9B36100CD19FB /* ClimbingStairs.cpp in Sources */,
+				E26BB0FA22F9B54300CD19FB /* MaximumDepthOfBinaryTree.cpp in Sources */,
+				E26BB0F422F9B0B700CD19FB /* FibonacciNumber.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

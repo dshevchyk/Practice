@@ -8,7 +8,7 @@
 
 #include <iostream>
 
-#include "leetcode/Recursion 1/PascalsTriangle2.hpp"
+#include "leetcode/Recursion 1/FibonacciNumber.hpp"
 #include <iostream>
 #include <stdlib.h>
 
@@ -19,7 +19,7 @@ std::function<int(int, int)> func_multiply = [](int a, int b) -> int { return a 
 
 int main(int argc, char *argv[])
 {
-    PascalsTriangle2::Solution s;
-    s.getRow(3);
+    FibonacciNumber::Solution s;
+    int res = s.fib(2);
     return 0;
 }
