@@ -19,6 +19,7 @@
 		E26BB0F422F9B0B700CD19FB /* FibonacciNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0F222F9B0B700CD19FB /* FibonacciNumber.cpp */; };
 		E26BB0F722F9B36100CD19FB /* ClimbingStairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0F522F9B36100CD19FB /* ClimbingStairs.cpp */; };
 		E26BB0FA22F9B54300CD19FB /* MaximumDepthOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0F822F9B54300CD19FB /* MaximumDepthOfBinaryTree.cpp */; };
+		E26BB0FE22F9B97600CD19FB /* MAXSPPROD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0FC22F9B97600CD19FB /* MAXSPPROD.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +62,8 @@
 		E26BB0F822F9B54300CD19FB /* MaximumDepthOfBinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumDepthOfBinaryTree.cpp; sourceTree = "<group>"; };
 		E26BB0F922F9B54300CD19FB /* MaximumDepthOfBinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaximumDepthOfBinaryTree.hpp; sourceTree = "<group>"; };
 		E26BB0FB22F9B56E00CD19FB /* TreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
+		E26BB0FC22F9B97600CD19FB /* MAXSPPROD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MAXSPPROD.cpp; sourceTree = "<group>"; };
+		E26BB0FD22F9B97600CD19FB /* MAXSPPROD.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MAXSPPROD.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,8 @@
 				E24B974122EC465500F04627 /* RepeatedNumber.hpp */,
 				E24B974322EC4B2B00F04627 /* MaxSubArray.cpp */,
 				E24B974422EC4B2B00F04627 /* MaxSubArray.hpp */,
+				E26BB0FC22F9B97600CD19FB /* MAXSPPROD.cpp */,
+				E26BB0FD22F9B97600CD19FB /* MAXSPPROD.hpp */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -235,6 +240,7 @@
 				E2442B1822EC40E00087C72F /* SwapPairs.cpp in Sources */,
 				E24B974222EC465500F04627 /* RepeatedNumber.cpp in Sources */,
 				E26BB0EA22F8258B00CD19FB /* ReverseLinkedList.cpp in Sources */,
+				E26BB0FE22F9B97600CD19FB /* MAXSPPROD.cpp in Sources */,
 				E2442B1322EC348F0087C72F /* ReverseString.cpp in Sources */,
 				E26BB0F722F9B36100CD19FB /* ClimbingStairs.cpp in Sources */,
 				E26BB0FA22F9B54300CD19FB /* MaximumDepthOfBinaryTree.cpp in Sources */,
