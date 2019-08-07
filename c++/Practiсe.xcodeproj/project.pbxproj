@@ -22,6 +22,7 @@
 		E26BB0FE22F9B97600CD19FB /* MAXSPPROD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0FC22F9B97600CD19FB /* MAXSPPROD.cpp */; };
 		E26BB10122F9C2BB00CD19FB /* RearrangeArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0FF22F9C2BB00CD19FB /* RearrangeArray.cpp */; };
 		E26BB10422FB76B500CD19FB /* ReverseInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB10222FB76B500CD19FB /* ReverseInteger.cpp */; };
+		E26BB10722FB78C700CD19FB /* PascalTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB10522FB78C700CD19FB /* PascalTriangle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +71,8 @@
 		E26BB10022F9C2BB00CD19FB /* RearrangeArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RearrangeArray.hpp; sourceTree = "<group>"; };
 		E26BB10222FB76B500CD19FB /* ReverseInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseInteger.cpp; sourceTree = "<group>"; };
 		E26BB10322FB76B500CD19FB /* ReverseInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseInteger.hpp; sourceTree = "<group>"; };
+		E26BB10522FB78C700CD19FB /* PascalTriangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PascalTriangle.cpp; sourceTree = "<group>"; };
+		E26BB10622FB78C700CD19FB /* PascalTriangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PascalTriangle.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,8 @@
 				E24B974422EC4B2B00F04627 /* MaxSubArray.hpp */,
 				E26BB0FC22F9B97600CD19FB /* MAXSPPROD.cpp */,
 				E26BB0FD22F9B97600CD19FB /* MAXSPPROD.hpp */,
+				E26BB10522FB78C700CD19FB /* PascalTriangle.cpp */,
+				E26BB10622FB78C700CD19FB /* PascalTriangle.hpp */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 				E2442B1322EC348F0087C72F /* ReverseString.cpp in Sources */,
 				E26BB0F722F9B36100CD19FB /* ClimbingStairs.cpp in Sources */,
 				E26BB0FA22F9B54300CD19FB /* MaximumDepthOfBinaryTree.cpp in Sources */,
+				E26BB10722FB78C700CD19FB /* PascalTriangle.cpp in Sources */,
 				E26BB0F422F9B0B700CD19FB /* FibonacciNumber.cpp in Sources */,
 				E26BB10122F9C2BB00CD19FB /* RearrangeArray.cpp in Sources */,
 			);
