@@ -23,6 +23,7 @@
 		E26BB10122F9C2BB00CD19FB /* RearrangeArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0FF22F9C2BB00CD19FB /* RearrangeArray.cpp */; };
 		E26BB10422FB76B500CD19FB /* ReverseInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB10222FB76B500CD19FB /* ReverseInteger.cpp */; };
 		E26BB10722FB78C700CD19FB /* PascalTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB10522FB78C700CD19FB /* PascalTriangle.cpp */; };
+		E26BB10A22FB7D8900CD19FB /* Pow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB10822FB7D8900CD19FB /* Pow.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +74,8 @@
 		E26BB10322FB76B500CD19FB /* ReverseInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseInteger.hpp; sourceTree = "<group>"; };
 		E26BB10522FB78C700CD19FB /* PascalTriangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PascalTriangle.cpp; sourceTree = "<group>"; };
 		E26BB10622FB78C700CD19FB /* PascalTriangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PascalTriangle.hpp; sourceTree = "<group>"; };
+		E26BB10822FB7D8900CD19FB /* Pow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pow.cpp; sourceTree = "<group>"; };
+		E26BB10922FB7D8900CD19FB /* Pow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pow.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +175,8 @@
 				E26BB0F622F9B36100CD19FB /* ClimbingStairs.hpp */,
 				E26BB0F822F9B54300CD19FB /* MaximumDepthOfBinaryTree.cpp */,
 				E26BB0F922F9B54300CD19FB /* MaximumDepthOfBinaryTree.hpp */,
+				E26BB10822FB7D8900CD19FB /* Pow.cpp */,
+				E26BB10922FB7D8900CD19FB /* Pow.hpp */,
 			);
 			path = "Recursion 1";
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				E26BB10422FB76B500CD19FB /* ReverseInteger.cpp in Sources */,
 				E26BB0F122F82B7A00CD19FB /* PalindromeInteger.cpp in Sources */,
 				E26BB0EE22F829FD00CD19FB /* FizzBuzz.cpp in Sources */,
+				E26BB10A22FB7D8900CD19FB /* Pow.cpp in Sources */,
 				E2442B1822EC40E00087C72F /* SwapPairs.cpp in Sources */,
 				E24B974222EC465500F04627 /* RepeatedNumber.cpp in Sources */,
 				E26BB0EA22F8258B00CD19FB /* ReverseLinkedList.cpp in Sources */,
