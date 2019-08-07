@@ -14,12 +14,8 @@
 
 using namespace std;
 
-
-std::function<int(int, int)> func_multiply = [](int a, int b) -> int { return a * b; };
-
 int main(int argc, char *argv[])
 {
     FibonacciNumber::Solution s;
-    int res = s.fib(2);
     return 0;
 }
