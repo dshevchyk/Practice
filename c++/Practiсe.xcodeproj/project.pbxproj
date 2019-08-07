@@ -24,6 +24,7 @@
 		E26BB10422FB76B500CD19FB /* ReverseInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB10222FB76B500CD19FB /* ReverseInteger.cpp */; };
 		E26BB10722FB78C700CD19FB /* PascalTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB10522FB78C700CD19FB /* PascalTriangle.cpp */; };
 		E26BB10A22FB7D8900CD19FB /* Pow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB10822FB7D8900CD19FB /* Pow.cpp */; };
+		E26BB10D22FB801F00CD19FB /* MergeTwoSortedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB10B22FB801F00CD19FB /* MergeTwoSortedLists.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -76,6 +77,8 @@
 		E26BB10622FB78C700CD19FB /* PascalTriangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PascalTriangle.hpp; sourceTree = "<group>"; };
 		E26BB10822FB7D8900CD19FB /* Pow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pow.cpp; sourceTree = "<group>"; };
 		E26BB10922FB7D8900CD19FB /* Pow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Pow.hpp; sourceTree = "<group>"; };
+		E26BB10B22FB801F00CD19FB /* MergeTwoSortedLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeTwoSortedLists.cpp; sourceTree = "<group>"; };
+		E26BB10C22FB801F00CD19FB /* MergeTwoSortedLists.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeTwoSortedLists.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +180,8 @@
 				E26BB0F922F9B54300CD19FB /* MaximumDepthOfBinaryTree.hpp */,
 				E26BB10822FB7D8900CD19FB /* Pow.cpp */,
 				E26BB10922FB7D8900CD19FB /* Pow.hpp */,
+				E26BB10B22FB801F00CD19FB /* MergeTwoSortedLists.cpp */,
+				E26BB10C22FB801F00CD19FB /* MergeTwoSortedLists.hpp */,
 			);
 			path = "Recursion 1";
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			files = (
 				E26BB0E722F81E6800CD19FB /* PascalsTriangle2.cpp in Sources */,
 				E24B974522EC4B2B00F04627 /* MaxSubArray.cpp in Sources */,
+				E26BB10D22FB801F00CD19FB /* MergeTwoSortedLists.cpp in Sources */,
 				E2442B0922EC329B0087C72F /* main.cpp in Sources */,
 				E26BB10422FB76B500CD19FB /* ReverseInteger.cpp in Sources */,
 				E26BB0F122F82B7A00CD19FB /* PalindromeInteger.cpp in Sources */,
