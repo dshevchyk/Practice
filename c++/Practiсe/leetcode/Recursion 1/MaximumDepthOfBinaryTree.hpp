@@ -13,7 +13,6 @@ class TreeNode;
 
 namespace MaximumDepthOfBinaryTree {
     class Solution {
-        void visit(TreeNode* root, int curr_depth, int& max_depth);
     public:
         int maxDepth(TreeNode* root);
     };
