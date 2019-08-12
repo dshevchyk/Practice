@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E236B43F2301316C00F7EBF1 /* UniqueBinarySearchTrees2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E236B43D2301316C00F7EBF1 /* UniqueBinarySearchTrees2.cpp */; };
 		E2442B0922EC329B0087C72F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2442B0822EC329B0087C72F /* main.cpp */; };
 		E2442B1322EC348F0087C72F /* ReverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2442B1122EC348F0087C72F /* ReverseString.cpp */; };
 		E2442B1822EC40E00087C72F /* SwapPairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2442B1622EC40E00087C72F /* SwapPairs.cpp */; };
@@ -40,6 +41,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E236B43D2301316C00F7EBF1 /* UniqueBinarySearchTrees2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UniqueBinarySearchTrees2.cpp; sourceTree = "<group>"; };
+		E236B43E2301316C00F7EBF1 /* UniqueBinarySearchTrees2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = UniqueBinarySearchTrees2.hpp; sourceTree = "<group>"; };
 		E2442B0522EC329B0087C72F /* Practiсe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Practiсe"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2442B0822EC329B0087C72F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E2442B1122EC348F0087C72F /* ReverseString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseString.cpp; sourceTree = "<group>"; };
@@ -182,6 +185,8 @@
 				E26BB10922FB7D8900CD19FB /* Pow.hpp */,
 				E26BB10B22FB801F00CD19FB /* MergeTwoSortedLists.cpp */,
 				E26BB10C22FB801F00CD19FB /* MergeTwoSortedLists.hpp */,
+				E236B43D2301316C00F7EBF1 /* UniqueBinarySearchTrees2.cpp */,
+				E236B43E2301316C00F7EBF1 /* UniqueBinarySearchTrees2.hpp */,
 			);
 			path = "Recursion 1";
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 				E26BB0EA22F8258B00CD19FB /* ReverseLinkedList.cpp in Sources */,
 				E26BB0FE22F9B97600CD19FB /* MAXSPPROD.cpp in Sources */,
 				E2442B1322EC348F0087C72F /* ReverseString.cpp in Sources */,
+				E236B43F2301316C00F7EBF1 /* UniqueBinarySearchTrees2.cpp in Sources */,
 				E26BB0F722F9B36100CD19FB /* ClimbingStairs.cpp in Sources */,
 				E26BB0FA22F9B54300CD19FB /* MaximumDepthOfBinaryTree.cpp in Sources */,
 				E26BB10722FB78C700CD19FB /* PascalTriangle.cpp in Sources */,
