@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E236B43F2301316C00F7EBF1 /* UniqueBinarySearchTrees2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E236B43D2301316C00F7EBF1 /* UniqueBinarySearchTrees2.cpp */; };
+		E236B4422301373500F7EBF1 /* KthSymbolInGrammar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E236B4402301373500F7EBF1 /* KthSymbolInGrammar.cpp */; };
 		E2442B0922EC329B0087C72F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2442B0822EC329B0087C72F /* main.cpp */; };
 		E2442B1322EC348F0087C72F /* ReverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2442B1122EC348F0087C72F /* ReverseString.cpp */; };
 		E2442B1822EC40E00087C72F /* SwapPairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2442B1622EC40E00087C72F /* SwapPairs.cpp */; };
@@ -43,6 +44,8 @@
 /* Begin PBXFileReference section */
 		E236B43D2301316C00F7EBF1 /* UniqueBinarySearchTrees2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UniqueBinarySearchTrees2.cpp; sourceTree = "<group>"; };
 		E236B43E2301316C00F7EBF1 /* UniqueBinarySearchTrees2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = UniqueBinarySearchTrees2.hpp; sourceTree = "<group>"; };
+		E236B4402301373500F7EBF1 /* KthSymbolInGrammar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KthSymbolInGrammar.cpp; sourceTree = "<group>"; };
+		E236B4412301373500F7EBF1 /* KthSymbolInGrammar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KthSymbolInGrammar.hpp; sourceTree = "<group>"; };
 		E2442B0522EC329B0087C72F /* Practiсe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Practiсe"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2442B0822EC329B0087C72F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E2442B1122EC348F0087C72F /* ReverseString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseString.cpp; sourceTree = "<group>"; };
@@ -187,6 +190,8 @@
 				E26BB10C22FB801F00CD19FB /* MergeTwoSortedLists.hpp */,
 				E236B43D2301316C00F7EBF1 /* UniqueBinarySearchTrees2.cpp */,
 				E236B43E2301316C00F7EBF1 /* UniqueBinarySearchTrees2.hpp */,
+				E236B4402301373500F7EBF1 /* KthSymbolInGrammar.cpp */,
+				E236B4412301373500F7EBF1 /* KthSymbolInGrammar.hpp */,
 			);
 			path = "Recursion 1";
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 			files = (
 				E26BB0E722F81E6800CD19FB /* PascalsTriangle2.cpp in Sources */,
 				E24B974522EC4B2B00F04627 /* MaxSubArray.cpp in Sources */,
+				E236B4422301373500F7EBF1 /* KthSymbolInGrammar.cpp in Sources */,
 				E26BB10D22FB801F00CD19FB /* MergeTwoSortedLists.cpp in Sources */,
 				E2442B0922EC329B0087C72F /* main.cpp in Sources */,
 				E26BB10422FB76B500CD19FB /* ReverseInteger.cpp in Sources */,
