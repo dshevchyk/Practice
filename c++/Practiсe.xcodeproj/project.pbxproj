@@ -11,6 +11,7 @@
 		E236B4422301373500F7EBF1 /* KthSymbolInGrammar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E236B4402301373500F7EBF1 /* KthSymbolInGrammar.cpp */; };
 		E236B445230139CE00F7EBF1 /* MergeOverlappingIntervals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E236B443230139CE00F7EBF1 /* MergeOverlappingIntervals.cpp */; };
 		E236B44923013FE700F7EBF1 /* GridUniquePaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E236B44723013FE700F7EBF1 /* GridUniquePaths.cpp */; };
+		E236B44D2303F0D100F7EBF1 /* SortAnArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E236B44B2303F0D100F7EBF1 /* SortAnArray.cpp */; };
 		E2442B0922EC329B0087C72F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2442B0822EC329B0087C72F /* main.cpp */; };
 		E2442B1322EC348F0087C72F /* ReverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2442B1122EC348F0087C72F /* ReverseString.cpp */; };
 		E2442B1822EC40E00087C72F /* SwapPairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2442B1622EC40E00087C72F /* SwapPairs.cpp */; };
@@ -53,6 +54,8 @@
 		E236B44623013A0000F7EBF1 /* Interval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interval.h; sourceTree = "<group>"; };
 		E236B44723013FE700F7EBF1 /* GridUniquePaths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GridUniquePaths.cpp; sourceTree = "<group>"; };
 		E236B44823013FE700F7EBF1 /* GridUniquePaths.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GridUniquePaths.hpp; sourceTree = "<group>"; };
+		E236B44B2303F0D100F7EBF1 /* SortAnArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortAnArray.cpp; sourceTree = "<group>"; };
+		E236B44C2303F0D100F7EBF1 /* SortAnArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortAnArray.hpp; sourceTree = "<group>"; };
 		E2442B0522EC329B0087C72F /* Practiсe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Practiсe"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2442B0822EC329B0087C72F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E2442B1122EC348F0087C72F /* ReverseString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseString.cpp; sourceTree = "<group>"; };
@@ -105,6 +108,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E236B44A2303F0B500F7EBF1 /* Recursion 2 */ = {
+			isa = PBXGroup;
+			children = (
+				E236B44B2303F0D100F7EBF1 /* SortAnArray.cpp */,
+				E236B44C2303F0D100F7EBF1 /* SortAnArray.hpp */,
+			);
+			path = "Recursion 2";
+			sourceTree = "<group>";
+		};
 		E2442AFC22EC329B0087C72F = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +156,7 @@
 		E2442B1022EC344B0087C72F /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				E236B44A2303F0B500F7EBF1 /* Recursion 2 */,
 				E26BB0E422F81E1500CD19FB /* Recursion 1 */,
 			);
 			path = leetcode;
@@ -300,6 +313,7 @@
 				E236B445230139CE00F7EBF1 /* MergeOverlappingIntervals.cpp in Sources */,
 				E26BB0F422F9B0B700CD19FB /* FibonacciNumber.cpp in Sources */,
 				E26BB10122F9C2BB00CD19FB /* RearrangeArray.cpp in Sources */,
+				E236B44D2303F0D100F7EBF1 /* SortAnArray.cpp in Sources */,
 				E236B44923013FE700F7EBF1 /* GridUniquePaths.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
