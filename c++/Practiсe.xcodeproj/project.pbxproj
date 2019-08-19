@@ -19,6 +19,7 @@
 		E2442B1822EC40E00087C72F /* SwapPairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2442B1622EC40E00087C72F /* SwapPairs.cpp */; };
 		E24B974222EC465500F04627 /* RepeatedNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24B974022EC465500F04627 /* RepeatedNumber.cpp */; };
 		E24B974522EC4B2B00F04627 /* MaxSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E24B974322EC4B2B00F04627 /* MaxSubArray.cpp */; };
+		E253EA3C230A7C5C007DFBE1 /* MergeIntervals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E253EA3A230A7C5C007DFBE1 /* MergeIntervals.cpp */; };
 		E26BB0E722F81E6800CD19FB /* PascalsTriangle2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0E522F81E6800CD19FB /* PascalsTriangle2.cpp */; };
 		E26BB0EA22F8258B00CD19FB /* ReverseLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0E822F8258B00CD19FB /* ReverseLinkedList.cpp */; };
 		E26BB0EE22F829FD00CD19FB /* FizzBuzz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0EC22F829FD00CD19FB /* FizzBuzz.cpp */; };
@@ -74,6 +75,8 @@
 		E24B974122EC465500F04627 /* RepeatedNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RepeatedNumber.hpp; sourceTree = "<group>"; };
 		E24B974322EC4B2B00F04627 /* MaxSubArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaxSubArray.cpp; sourceTree = "<group>"; };
 		E24B974422EC4B2B00F04627 /* MaxSubArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MaxSubArray.hpp; sourceTree = "<group>"; };
+		E253EA3A230A7C5C007DFBE1 /* MergeIntervals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeIntervals.cpp; sourceTree = "<group>"; };
+		E253EA3B230A7C5C007DFBE1 /* MergeIntervals.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeIntervals.hpp; sourceTree = "<group>"; };
 		E26BB0E522F81E6800CD19FB /* PascalsTriangle2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PascalsTriangle2.cpp; sourceTree = "<group>"; };
 		E26BB0E622F81E6800CD19FB /* PascalsTriangle2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PascalsTriangle2.hpp; sourceTree = "<group>"; };
 		E26BB0E822F8258B00CD19FB /* ReverseLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseLinkedList.cpp; sourceTree = "<group>"; };
@@ -196,6 +199,8 @@
 				E236B44F2303FAEC00F7EBF1 /* SpiralOrderMatrixI.hpp */,
 				E236B4512303FBEE00F7EBF1 /* SpiralOrderMatrixII.cpp */,
 				E236B4522303FBEE00F7EBF1 /* SpiralOrderMatrixII.hpp */,
+				E253EA3A230A7C5C007DFBE1 /* MergeIntervals.cpp */,
+				E253EA3B230A7C5C007DFBE1 /* MergeIntervals.hpp */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -319,6 +324,7 @@
 				E2442B1322EC348F0087C72F /* ReverseString.cpp in Sources */,
 				E236B43F2301316C00F7EBF1 /* UniqueBinarySearchTrees2.cpp in Sources */,
 				E26BB0F722F9B36100CD19FB /* ClimbingStairs.cpp in Sources */,
+				E253EA3C230A7C5C007DFBE1 /* MergeIntervals.cpp in Sources */,
 				E26BB0FA22F9B54300CD19FB /* MaximumDepthOfBinaryTree.cpp in Sources */,
 				E236B4532303FBEE00F7EBF1 /* SpiralOrderMatrixII.cpp in Sources */,
 				E26BB10722FB78C700CD19FB /* PascalTriangle.cpp in Sources */,

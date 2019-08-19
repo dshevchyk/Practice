@@ -14,18 +14,18 @@
 #include <vector>
 #include <unordered_map>
 #include <map>
-
+#include "common/Interval.h"
+#include "interviewbit/Arrays/MergeIntervals.hpp"
+using namespace std;
 
 int main(int argc, char *argv[])
 {
-    std::vector<std::vector<int>> A = {
-        {133, 241, 22, 258, 187, 150, 79, 207, 196, 401, 366, 335, 198},
-        {401, 55, 260, 363, 14, 318, 178, 296, 333, 296, 45, 37, 10},
-        {112, 374, 79, 12, 97, 39, 310, 223, 139, 91, 171, 95, 126},
+
+    MergeIntervals::Solution s;
+    vector<Interval> ints= {
+        {1, 2},
+        {6, 10}
     };
-    SpiralOrderMatrixI::Solution s;
-    const auto ans = s.spiralOrder(A);
-    for (auto i = ans.begin(); i != ans.end(); ++i)
-        std::cout << *i << ' ';
+    const auto ans = s.insert(ints, {3, 4});
     return 0;
 }
