@@ -23,6 +23,7 @@
 		E253EA3F230A85C1007DFBE1 /* RotateMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E253EA3D230A85C1007DFBE1 /* RotateMatrix.cpp */; };
 		E253EA42230D1AF8007DFBE1 /* HotelBookingsPossible.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E253EA40230D1AF8007DFBE1 /* HotelBookingsPossible.cpp */; };
 		E253EA45230D1D86007DFBE1 /* FirstMissingInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E253EA43230D1D86007DFBE1 /* FirstMissingInteger.cpp */; };
+		E253EA48230D2699007DFBE1 /* ValidateBinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E253EA46230D2699007DFBE1 /* ValidateBinarySearchTree.cpp */; };
 		E26BB0E722F81E6800CD19FB /* PascalsTriangle2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0E522F81E6800CD19FB /* PascalsTriangle2.cpp */; };
 		E26BB0EA22F8258B00CD19FB /* ReverseLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0E822F8258B00CD19FB /* ReverseLinkedList.cpp */; };
 		E26BB0EE22F829FD00CD19FB /* FizzBuzz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0EC22F829FD00CD19FB /* FizzBuzz.cpp */; };
@@ -86,6 +87,8 @@
 		E253EA41230D1AF8007DFBE1 /* HotelBookingsPossible.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HotelBookingsPossible.hpp; sourceTree = "<group>"; };
 		E253EA43230D1D86007DFBE1 /* FirstMissingInteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FirstMissingInteger.cpp; sourceTree = "<group>"; };
 		E253EA44230D1D86007DFBE1 /* FirstMissingInteger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FirstMissingInteger.hpp; sourceTree = "<group>"; };
+		E253EA46230D2699007DFBE1 /* ValidateBinarySearchTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValidateBinarySearchTree.cpp; sourceTree = "<group>"; };
+		E253EA47230D2699007DFBE1 /* ValidateBinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ValidateBinarySearchTree.hpp; sourceTree = "<group>"; };
 		E26BB0E522F81E6800CD19FB /* PascalsTriangle2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PascalsTriangle2.cpp; sourceTree = "<group>"; };
 		E26BB0E622F81E6800CD19FB /* PascalsTriangle2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PascalsTriangle2.hpp; sourceTree = "<group>"; };
 		E26BB0E822F8258B00CD19FB /* ReverseLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseLinkedList.cpp; sourceTree = "<group>"; };
@@ -131,6 +134,8 @@
 			children = (
 				E236B44B2303F0D100F7EBF1 /* SortAnArray.cpp */,
 				E236B44C2303F0D100F7EBF1 /* SortAnArray.hpp */,
+				E253EA46230D2699007DFBE1 /* ValidateBinarySearchTree.cpp */,
+				E253EA47230D2699007DFBE1 /* ValidateBinarySearchTree.hpp */,
 			);
 			path = "Recursion 2";
 			sourceTree = "<group>";
@@ -350,6 +355,7 @@
 				E26BB10122F9C2BB00CD19FB /* RearrangeArray.cpp in Sources */,
 				E253EA3F230A85C1007DFBE1 /* RotateMatrix.cpp in Sources */,
 				E236B44D2303F0D100F7EBF1 /* SortAnArray.cpp in Sources */,
+				E253EA48230D2699007DFBE1 /* ValidateBinarySearchTree.cpp in Sources */,
 				E236B44923013FE700F7EBF1 /* GridUniquePaths.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
