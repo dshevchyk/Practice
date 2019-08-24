@@ -25,6 +25,8 @@
 		E253EA45230D1D86007DFBE1 /* FirstMissingInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E253EA43230D1D86007DFBE1 /* FirstMissingInteger.cpp */; };
 		E253EA48230D2699007DFBE1 /* ValidateBinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E253EA46230D2699007DFBE1 /* ValidateBinarySearchTree.cpp */; };
 		E253EA4B23111C44007DFBE1 /* SearchA2DMatrixII.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E253EA4923111C44007DFBE1 /* SearchA2DMatrixII.cpp */; };
+		E253EA4E23111E81007DFBE1 /* ExcelColumnNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E253EA4C23111E81007DFBE1 /* ExcelColumnNumber.cpp */; };
+		E253EA5123112167007DFBE1 /* ExcelColumnTitle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E253EA4F23112166007DFBE1 /* ExcelColumnTitle.cpp */; };
 		E26BB0E722F81E6800CD19FB /* PascalsTriangle2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0E522F81E6800CD19FB /* PascalsTriangle2.cpp */; };
 		E26BB0EA22F8258B00CD19FB /* ReverseLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0E822F8258B00CD19FB /* ReverseLinkedList.cpp */; };
 		E26BB0EE22F829FD00CD19FB /* FizzBuzz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E26BB0EC22F829FD00CD19FB /* FizzBuzz.cpp */; };
@@ -92,6 +94,10 @@
 		E253EA47230D2699007DFBE1 /* ValidateBinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ValidateBinarySearchTree.hpp; sourceTree = "<group>"; };
 		E253EA4923111C44007DFBE1 /* SearchA2DMatrixII.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SearchA2DMatrixII.cpp; sourceTree = "<group>"; };
 		E253EA4A23111C44007DFBE1 /* SearchA2DMatrixII.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SearchA2DMatrixII.hpp; sourceTree = "<group>"; };
+		E253EA4C23111E81007DFBE1 /* ExcelColumnNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExcelColumnNumber.cpp; sourceTree = "<group>"; };
+		E253EA4D23111E81007DFBE1 /* ExcelColumnNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ExcelColumnNumber.hpp; sourceTree = "<group>"; };
+		E253EA4F23112166007DFBE1 /* ExcelColumnTitle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExcelColumnTitle.cpp; sourceTree = "<group>"; };
+		E253EA5023112166007DFBE1 /* ExcelColumnTitle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ExcelColumnTitle.hpp; sourceTree = "<group>"; };
 		E26BB0E522F81E6800CD19FB /* PascalsTriangle2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PascalsTriangle2.cpp; sourceTree = "<group>"; };
 		E26BB0E622F81E6800CD19FB /* PascalsTriangle2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PascalsTriangle2.hpp; sourceTree = "<group>"; };
 		E26BB0E822F8258B00CD19FB /* ReverseLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseLinkedList.cpp; sourceTree = "<group>"; };
@@ -272,6 +278,10 @@
 				E26BB10322FB76B500CD19FB /* ReverseInteger.hpp */,
 				E236B44723013FE700F7EBF1 /* GridUniquePaths.cpp */,
 				E236B44823013FE700F7EBF1 /* GridUniquePaths.hpp */,
+				E253EA4C23111E81007DFBE1 /* ExcelColumnNumber.cpp */,
+				E253EA4D23111E81007DFBE1 /* ExcelColumnNumber.hpp */,
+				E253EA4F23112166007DFBE1 /* ExcelColumnTitle.cpp */,
+				E253EA5023112166007DFBE1 /* ExcelColumnTitle.hpp */,
 			);
 			path = Math;
 			sourceTree = "<group>";
@@ -337,6 +347,7 @@
 				E24B974522EC4B2B00F04627 /* MaxSubArray.cpp in Sources */,
 				E236B4422301373500F7EBF1 /* KthSymbolInGrammar.cpp in Sources */,
 				E253EA42230D1AF8007DFBE1 /* HotelBookingsPossible.cpp in Sources */,
+				E253EA5123112167007DFBE1 /* ExcelColumnTitle.cpp in Sources */,
 				E26BB10D22FB801F00CD19FB /* MergeTwoSortedLists.cpp in Sources */,
 				E2442B0922EC329B0087C72F /* main.cpp in Sources */,
 				E26BB10422FB76B500CD19FB /* ReverseInteger.cpp in Sources */,
@@ -346,6 +357,7 @@
 				E2442B1822EC40E00087C72F /* SwapPairs.cpp in Sources */,
 				E24B974222EC465500F04627 /* RepeatedNumber.cpp in Sources */,
 				E253EA45230D1D86007DFBE1 /* FirstMissingInteger.cpp in Sources */,
+				E253EA4E23111E81007DFBE1 /* ExcelColumnNumber.cpp in Sources */,
 				E26BB0EA22F8258B00CD19FB /* ReverseLinkedList.cpp in Sources */,
 				E236B4502303FAEC00F7EBF1 /* SpiralOrderMatrixI.cpp in Sources */,
 				E26BB0FE22F9B97600CD19FB /* MAXSPPROD.cpp in Sources */,
